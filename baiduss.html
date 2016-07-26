@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>百度搜索框</title>
+        <meta charset="utf-8">
+        <style>
+            *{margin: 0px; padding:0px;list-style: none;}
+            .box{width:640px;}
+            .div1{margin:150px auto 25px;text-align: center;}
+            .div2{margin:0px auto;position:relative;}
+            #txt{width:533px; height:35px;border:1px #8b8b8b solid;padding-left:5px;overflow: hidden;}
+            #btn{width:98px;height:38px;border:1px #CCC solid;background: #3385ff;color:#FFF}
+            #btn:hover{cursor:pointer;}
+            ul{width:538px;position:absolute;}
+            ul li{width:533px;height:35px; line-height: 35px;padding-left: 5px;}
+            .ac{background:#F0F0F0}
+        </style>
+        <script src="js/jsonp.js"></script>
+        <script>
+            window.onload=function(){
+                var oBtn=document.getElementById('btn');
+                var oT=document.getElementById('txt');
+                var oUl=document.getElementById('ul');
+                var url='https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?';
+                var iNow=-1;
+                var oldValue='';
+                
+                document.onkeyup=function(ev){
+                    var oEvent=ev||event;
+                    if(oEvent.keyCode==38||oEvent.keyCode==40)return false;
+                    jsonp({
+                        url:url,
+                        data:{
+                            wd:oT.value,   
+                        },
+                        fnSucc:function(json1){
+                            oldValue=oT.value;
+                            oUl.innerHTML='';
+                            var arr=json1.s;
+
+                            for(var i=0;i<arr.length;i++){
+
+                                var oLi=document.createElement('li');
+                                oLi.innerHTML=arr[i];
+                                oUl.appendChild(oLi);
+                                oUl.style.border='1px solid #CCC';
+                                oUl.style.left=oT.offsetLeft+'px';
+                                oUl.style.top='35px';
+                            }
+                            var aLi=oUl.children;
+                            for(var i=0;i<aLi.length;i++){
+                                
+                                aLi[i].onmouseover=function(){
+
+                                    for(var j=0;j<aLi.length;j++){
+                                        aLi[j].className='';
+                                    }
+                                    this.className='ac';
+                                }
+                            }
+                            for(var i=0;i<aLi.length;i++){
+                                 aLi[i].onmouseout=function(){
+
+                                    this.className='';
+                                }
+                            }
+                            
+                        }
+                    })
+                }
+                document.onkeydown=function(ev){
+                                var oEvent=ev||event;
+                                var aLi=oUl.children;
+                                if(oEvent.keyCode==40){
+                                    //console.log(1)
+                                    iNow++;
+                                    if(iNow==aLi.length)iNow=-1;
+                                    for(var i=0;i<aLi.length;i++){
+                                            aLi[i].className='';
+                                        }
+                                    if(iNow==-1){
+                                        oT.value=oldValue;
+                                    }else{
+                                        
+                                        oT.value=aLi[iNow].innerHTML;
+                                        aLi[iNow].className='ac';
+                                    }
+                                    
+                                }
+                                if(oEvent.keyCode==38){
+                                    //console.log(1)
+                                    iNow--;
+                                    if(iNow==-2)iNow=aLi.length-1;
+                                    for(var i=0;i<aLi.length;i++){
+                                        aLi[i].className='';
+                                    }
+                                    if(iNow==-1){
+                                        oT.value=oldValue;
+                                    }else{
+                                        oT.value=aLi[iNow].innerHTML;
+                                        aLi[iNow].className='ac';
+                                    }
+                                    
+                                }
+                                if(oEvent.keyCode==13){
+                                    window.open('https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd='+oT.value+'');
+                                }
+                            }
+                oBtn.onclick=function(){
+                    window.open('https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd='+oT.value+'');
+                }
+                // oUl.onmouseover=function(ev){
+                //     var oEvent=ev||event;
+                //     var oSrc=oEvent.srcElement || oEvent.target;
+                //     if(oSrc.tagName!='LI')return;
+                //     oSrc.className='ac';
+                    
+                // }
+               
+
+                
+
+
+
+            }
+        </script>
+    </head>
+    <body>
+        <div class="box div1">
+            <img src="images/bd_logo1.png" width="270" height="129" alt="">
+        </div>
+        <div class="box div2">
+            <input id="txt"><input type="button" value="百度一下" id="btn" />
+            <ul id="ul">
+                
+            </ul>
+
+        </div>
+       
+    </body>
+</html>
