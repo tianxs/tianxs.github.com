@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <title>照片墙</title>
     <style>
-        *{ margin:0; padding:0; list-style:none;}
-        body{ text-align:center;background:url(./images/pwbg.jpg)}
+        body,p,ul,li,span,img{margin:0; padding:0; list-style:none;}
+        body{ text-align:center;position: relative;}
+        .explain{width: 200px;height: 400px;line-height: 25px;font-size: 16px;text-indent: 2em;position:absolute;top:30px;left:150px;text-align: left;font-family: "微软雅黑";}
+        .explain span{color:#E71236;font-size: 18px;}
         #oUl{ width:642px; margin:0 auto; position:relative;}
         #oUl li{ width:200px; height:200px; border:2px solid #000; float:left; margin:5px;}
         #oUl li.ac{ width:200px; height:200px; border:2px dashed red; float:left; margin:5px;}
         #oUl li img{ width:200px; height:200px;}
     </style>
     <script src="js/move.js"></script>
-    <script src="js/jquery.min.js"></script>
+    <script src="js/$.js"></script>
     <script>
+
         $(function(){
             var oBtn=document.getElementById('btn');
             var oUl=document.getElementById('oUl');
@@ -154,6 +157,9 @@
     </script>
 </head>
 <body>
+<p class="explain">
+	说明：此照片墙，可以点击<span>"随机换"</span>按钮，照片随机换位置，也可以<span>拖动</span>某一个照片和其他照片切换位置。
+</p>
 <input type="button" value="随机换" id="btn">
     <ul id="oUl">
         <li><img src="images/pw1.jpg" alt=""></li>
