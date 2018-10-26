@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>无缝滚动</title>
     <style>
         ul,li,body{ margin:0; padding:0; list-style:none;}
         #box{ overflow:hidden; width:840px; height:210px; position:relative; margin:100px auto; border:1px solid #000;}
@@ -24,7 +24,7 @@
             oUl.innerHTML+=oUl.innerHTML;
             var aLi=oUl.children;
             oUl.style.width=aLi.length*aLi[0].offsetWidth+'px';
-            var oW=oUl.offsetWidth/2
+            var oW=oUl.offsetWidth/2;
 
             function toLef(){
                 clearInterval(timer);
@@ -68,8 +68,8 @@
 </head>
 <body>
     <div id="box">
-        <a href="javascript:;"></a>
-        <a href="javascript:;"></a>
+        <a href="javascript:void(0);"></a>
+        <a href="javascript:void(0);"></a>
         <ul>
             <li><img src="images/cat1.jpg" alt=""></li>
             <li><img src="images/cat2.jpg" alt=""></li>

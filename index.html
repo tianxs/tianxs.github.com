@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html>
@@ -6,64 +5,70 @@
 <head>
 
 
-	<title>个人网站展示-Rain</title>
+    <title>个人网站展示-Rain</title>
 
-	<!--fonts-->
+    <!--fonts-->
 
-		<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-		
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 
-	<!--//fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'> -->
 
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//fonts-->
 
-		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
 
-	<!-- for-mobile-apps -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/basics.css" rel="stylesheet" type="text/css" media="all"/>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- for-mobile-apps -->
 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
 
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"/>
 
-	<!-- //for-mobile-apps -->
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
 
-	<!-- js -->
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
 
-		<script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- //for-mobile-apps -->
 
-	<!-- js -->
+    <!-- js -->
 
-	<!-- start-smooth-scrolling -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 
-		<script type="text/javascript" src="js/move-top.js"></script>
+    <!-- js -->
 
-		<script type="text/javascript" src="js/easing.js"></script>
+    <!-- start-smooth-scrolling -->
 
-		<script type="text/javascript">
+    <script type="text/javascript" src="js/move-top.js"></script>
 
-			jQuery(document).ready(function($) {
+    <script type="text/javascript" src="js/easing.js"></script>
 
-				$(".scroll").click(function(event){		
+    <script type="text/javascript">
 
-					event.preventDefault();
+        jQuery(document).ready(function ($) {
 
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            $(".scroll").click(function (event) {
 
-				});
+                event.preventDefault();
 
-			});
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
 
-		</script>
+            });
 
-	<!-- start-smooth-scrolling -->
+        });
 
+    </script>
+
+    <!-- start-smooth-scrolling -->
 
 
 </head>
@@ -74,147 +79,148 @@
 
 <div class="banner" id="home">
 
-	<div class="container"> 
+    <div class="container">
 
-		<div class="top-header row">
+        <div class="top-header row">
 
-			<script src="js/classie.js"></script>
+            <script src="js/classie.js"></script>
 
-			<!--top-nav---->
+            <!--top-nav---->
 
-			<div class="logo">
+            <div class="logo">
 
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+                <a href="index.html"><img src="images/logo.png" alt=""/></a>
 
-			</div>
+            </div>
 
-			<div class="top-nav">
+            <div class="top-nav">
 
-				<div class="nav-icon">
+                <div class="nav-icon">
 
-					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+                    <a href="#" class="right_bt" id="activator"><span> </span> </a>
 
-				</div>
+                </div>
 
-				<div class="box" id="box">
+                <div class="box" id="box">
 
-					<div class="box_content">        					                         
+                    <div class="box_content">
 
-						<div class="box_content_center">
+                        <div class="box_content_center">
 
-							<div class="form_content">
+                            <div class="form_content">
 
-								<div class="menu_box_list">
+                                <div class="menu_box_list">
 
-									<ul>
+                                    <ul>
 
-										<li><a class="scroll" href="#home"><span>网站首页</span></a></li>
+                                        <li><a class="scroll" href="#home"><span>网站首页</span></a></li>
 
-										<li><a class="scroll" href="#about"><span>个人简介</span></a></li>
+                                        <li><a class="scroll" href="#introduce"><span>自我介绍</span></a></li>
+                                        <li><a class="scroll" href="#skill"><span>我的技能</span></a></li>
+                                        <li><a class="scroll" href="#education"><span>教育背景</span></a></li>
+                                        <li><a class="scroll" href="#experience"><span>工作经历</span></a></li>
+                                        <li><a class="scroll" href="#advantage"><span>个人优势</span></a></li>
 
-										<li><a class="scroll" href="#services"><span>个人优势</span></a></li>
+                                        <li><a class="scroll" href="#works"><span>作品集</span></a></li>
 
-										<li><a class="scroll" href="#portfolio"><span>作品集</span></a></li>
+                                        <li><a class="scroll" href="#blog"><span>上线作品</span></a></li>
 
-										<li><a class="scroll" href="#blog"><span>上线作品</span></a></li>
+                                        <li><a class="scroll" href="#contact"><span>联系方式</span></a></li>
 
-										<li><a class="scroll" href="#contact"><span>联系我吧</span></a></li>
+                                        <div class="clearfix"></div>
 
-										<div class="clearfix"> </div>
+                                    </ul>
 
-									</ul>
+                                </div>
 
-								</div>
+                                <a class="boxclose" id="boxclose"> <span> </span></a>
 
-								<a class="boxclose" id="boxclose"> <span> </span></a>
+                            </div>
 
-							</div>                                  
+                        </div>
 
-						</div> 	
+                    </div>
 
-					</div> 
+                </div>
 
-				</div>       	  
+            </div>
 
-			</div>
+            <!---start-click-drop-down-menu----->
 
-			<!---start-click-drop-down-menu----->
+            <!----start-dropdown--->
 
-			        <!----start-dropdown--->
+            <script type="text/javascript">
 
-			         <script type="text/javascript">
+                var $ = jQuery.noConflict();
 
-						var $ = jQuery.noConflict();
+                $(function () {
 
-							$(function() {
+                    $('#activator').click(function () {
 
-								$('#activator').click(function(){
+                        $('#box').animate({'top': '0px'}, 900);
 
-									$('#box').animate({'top':'0px'},900);
+                    });
 
-								});
+                    $('#boxclose').click(function () {
 
-								$('#boxclose').click(function(){
+                        $('#box').animate({'top': '-1000px'}, 900);
 
-								$('#box').animate({'top':'-1000px'},900);
+                    });
 
-								});
+                });
 
-							});
+                $(document).ready(function () {
 
-							$(document).ready(function(){
+                    //Hide (Collapse) the toggle containers on load
 
-							//Hide (Collapse) the toggle containers on load
+                    $(".toggle_container").hide();
 
-							$(".toggle_container").hide(); 
+                    //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
 
-							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+                    $(".trigger").click(function () {
 
-							$(".trigger").click(function(){
+                        $(this).toggleClass("active").next().slideToggle("slow");
 
-								$(this).toggleClass("active").next().slideToggle("slow");
+                        return false; //Prevent the browser jump to the link anchor
 
-									return false; //Prevent the browser jump to the link anchor
+                    });
 
-							});
 
-												
+                });
 
-						});
+            </script>
 
-					</script>
+            <!---//End-click-drop-down-menu----->
 
-			<!---//End-click-drop-down-menu----->
+            <div class="clearfix"></div>
 
-			<div class="clearfix"> </div>
+        </div>
 
-		</div>
+        <div class="banner-info">
 
-		<div class="banner-info">
+            <div class="banner-left">
 
-			<div class="banner-left">
+                <img src="images/my.png" alt=""/>
 
-				<img src="images/my.png" alt=""/>
+            </div>
 
-			</div>
+            <div class="banner-right">
 
-			<div class="banner-right">
+                <h1>我是田雨</h1>
 
-				<h1>我是田雨</h1>
+                <div class="border"></div>
 
-				<div class="border"></div>
+                <h2>一名优秀的前端开发人员</h2>
 
-				<h2>一名优秀的前端开发人员</h2>
+                <a href="#">欢迎来到我的个人网站</a>
 
-				<a href="#">欢迎来到我的个人网站</a>
+            </div>
 
-			</div>
+            <div class="clearfix"></div>
 
-			<div class="clearfix"></div>
+        </div>
 
-		</div>
-
-	</div>
+    </div>
 
 </div>
 
@@ -222,33 +228,34 @@
 
 <!--about-->
 
-<div class="about text-center" id="about">
+<div class="about text-center" id="introduce">
 
-	<div class="container">
+    <div class="container">
 
-		<h3>自我介绍</h3>
+        <h3>自我介绍</h3>
 
-		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+        <div class="strip text-center"><img src="images/about.png" alt=" "/></div>
 
-		<p id="cont_p"></p>
-		<script>
-			var oP=document.getElementById('cont_p');
-			var str='诚挚的热爱前端，仿佛我们创造了另一个世界。过硬的HTML+CSS技能配合原生JS的熟练应用，在之前的工作中一个月不到就得心应手。对新知识的渴求，使我想在3年内成为“大牛”中的一员。热爱运功，喜欢交朋友，非常期待加入一个向上的团队。';
-			var iNow=-1;
-			var timer=null;
-			timer=setInterval(function(){
-				iNow++;
-				var aSpan=document.createElement('span');
-				aSpan.innerHTML+=str.charAt(iNow);
-				oP.appendChild(aSpan);
-				if(iNow==str.length){
-					clearInterval(timer);
-				}
-			},150)
-		</script>
+        <p id="cont_p"></p>
+        <script>
+            var oP = document.getElementById('cont_p');
+            var str = '诚挚的热爱前端，仿佛我们创造了另一个世界。过硬的HTML+CSS技能配合原生JS的熟练应用，在之前的工作中一个月不到就得心应手。对新知识的渴求，使我想在3年内成为“大牛”中的一员。热爱运功，喜欢交朋友，非常期待加入一个向上的团队。';
+            var iNow = -1;
+            var timer = null;
+            timer = setInterval(function () {
+                iNow++;
+                var aSpan = document.createElement('span');
+                aSpan.innerHTML += str.charAt(iNow);
+                aSpan.classList.add("block-left");
+                oP.appendChild(aSpan);
+                if (iNow === str.length) {
+                    clearInterval(timer);
+                }
+            }, 150)
+        </script>
 
-		
-	</div>
+
+    </div>
 
 </div>
 
@@ -258,111 +265,109 @@
 
 <!--my skill-->
 
-<div class="my-skills text-center">
+<div class="my-skills text-center" id="skill">
 
-	<div class="container">
+    <div class="container">
 
-		<h3>我的技能</h3>
+        <h3>我的技能</h3>
 
-		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+        <div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
 
-		<div class="skill-grids">
+        <div class="skill-grids">
 
-					<div class="col-md-2 skills-grid text-center">
+            <div class="col-md-2 skills-grid text-center">
 
-						<div class="circle" id="circles-1"></div>
+                <div class="circle" id="circles-1"></div>
 
-						<p>php</p>
+                <p>php</p>
 
-					</div>
+            </div>
 
-					<div class="col-md-2 skills-grid text-center">
+            <div class="col-md-2 skills-grid text-center">
 
-						<div class="circle" id="circles-2"></div>
+                <div class="circle" id="circles-2"></div>
 
-						<p>Photoshop</p>
+                <p>Photoshop</p>
 
-					</div>
+            </div>
 
-					<div class="col-md-2 skills-grid text-center">
+            <div class="col-md-2 skills-grid text-center">
 
-						<div class="circle" id="circles-3"></div>
+                <div class="circle" id="circles-3"></div>
 
-						<p>Dreamweaver</p>
+                <p>Dreamweaver</p>
 
-					</div>
+            </div>
 
-					<div class="col-md-2 skills-grid text-center">
+            <div class="col-md-2 skills-grid text-center">
 
-						<div class="circle" id="circles-4"></div>
+                <div class="circle" id="circles-4"></div>
 
-						<p>Html 5 / CSS 3</p>
+                <p>Html 5 / CSS 3</p>
 
-					</div>
+            </div>
 
-					<div class="col-md-2 skills-grid text-center">
+            <div class="col-md-2 skills-grid text-center">
 
-						<div class="circle" id="circles-5"></div>
+                <div class="circle" id="circles-5"></div>
 
-						<p>javaScript</p>
+                <p>javaScript</p>
 
-					</div>
+            </div>
 
-					<div class="col-md-2 skills-grid text-center">
+            <div class="col-md-2 skills-grid text-center">
 
-						<div class="circle" id="circles-6"></div>
+                <div class="circle" id="circles-6"></div>
 
-						<p>Sublime</p>
+                <p>Sublime</p>
 
-					</div>
+            </div>
 
-					<div class="clearfix"> </div>
+            <div class="clearfix"></div>
 
-				 <script type="text/javascript" src="js/circles.js"></script>
+            <script type="text/javascript" src="js/circles.js"></script>
 
-					         <script>
+            <script>
 
-								var colors = [
+                var colors = [
 
-										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+                    ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
 
-									];
+                ];
 
-								for (var i = 1; i <= 6; i++) {
+                for (var i = 1; i <= 6; i++) {
 
-									var child = document.getElementById('circles-' + i),
+                    var child = document.getElementById('circles-' + i),
 
-										percentage = 30 + (i * 10);
+                        percentage = 30 + (i * 10);
 
-										
 
-									Circles.create({
+                    Circles.create({
 
-										id:child.id,
+                        id: child.id,
 
-										percentage: percentage,
+                        percentage: percentage,
 
-										radius:     80,
+                        radius: 80,
 
-										width:      10,
+                        width: 10,
 
-										number:   	percentage / 1,
+                        number: percentage / 1,
 
-										text:       '%',
+                        text: '%',
 
-										colors:     colors[i - 1]
+                        colors: colors[i - 1]
 
-									});
+                    });
 
-								}
+                }
 
-						
 
-				</script>
+            </script>
 
-		</div>
+        </div>
 
-	</div>	
+    </div>
 
 </div>
 
@@ -372,53 +377,52 @@
 
 <!--education-->
 
-<div class="education text-center">
+<div class="education text-center" id="education">
 
-	<div class="container">
+    <div class="container">
 
-		<div class="edu-info">
+        <div class="edu-info">
 
-			<h3>教育背景</h3>
+            <h3>教育背景</h3>
 
-		</div>
+        </div>
 
-		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+        <div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
 
-		<div class="edu-grids">
+        <div class="edu-grids">
 
-			
 
-			<div class="col-md-12 edu-grid">
+            <div class="col-md-12 edu-grid">
 
-				<p>2011.9 - 2014.7</p><span>大专教育</span>
+                <p>2011.9 - 2014.7</p><span>大专教育</span>
 
-				<div class="edu-border">
+                <div class="edu-border">
 
-					<div class="edu-grid-master">
+                    <div class="edu-grid-master">
 
-						<h3>专业：电子商务</h3>
+                        <h3>专业：电子商务</h3>
 
-						<h4>毕业院校：保定学院</h4>
+                        <h4>毕业院校：保定学院</h4>
 
-					</div>
+                    </div>
 
-					<div class="edu-grid-info">
+                    <div class="edu-grid-info">
 
-						<h5>这里学习了很多的课程，包括PhotoShop和Dreamweaver软件的使用，和C++，MySQL，ASP.NET等语言的学习，电子商务网站的建设与维护，物流知识等专业课程和一些高等教育的基础课程。参加了各种社团和志愿活动，锻炼了自己的交际能力和团队协作能力。</h5>
+                        <h5>
+                            这里学习了很多的课程，包括PhotoShop和Dreamweaver软件的使用，和C++，MySQL，ASP.NET等语言的学习，电子商务网站的建设与维护，物流知识等专业课程和一些高等教育的基础课程。参加了各种社团和志愿活动，锻炼了自己的交际能力和团队协作能力。</h5>
 
-					</div>
+                    </div>
 
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-			<div class="clearfix"></div>
+            <div class="clearfix"></div>
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
-	
 
 </div>
 
@@ -428,67 +432,90 @@
 
 <!--work-->
 
-<div class="work-experience text-center">
+<div class="work-experience text-center" id="experience">
 
-	
 
-	<div class="container">
+    <div class="container">
 
-		<div class="work-info">
+        <div class="work-info">
 
-			<h3>工作经历</h3>
+            <h3>工作经历</h3>
 
-		</div>
+        </div>
 
-		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+        <div class="strip text-center"><img src="images/work.png" alt=" "/></div>
 
-		<div class="work-grids">
+        <div class="work-grids">
 
-			<div class="col-md-6 w-grid">
+            <div class="col-md-6 w-grid">
 
-				<div class="work-grid">
+                <div class="work-grid">
 
-					<h3>2014.7-2015.1</h3>
+                    <h3>2014.7-2015.1</h3>
 
-					<div class="work-grid-info">
+                    <div class="work-grid-info">
 
-						<h4>北京中淘易企业服务有限公司</h4>
+                        <h4>北京中淘易企业服务有限公司</h4>
 
-						<h5>职务：运营助理</h5>
+                        <h5>职务：运营助理</h5>
 
-						<p>主要职责：1.负责淘宝或天猫店铺的店铺装修、图片美化和产品上下架;2.负责与店铺运营人员沟通好，做好店铺的商品结构调整或改版;3.◎负责该店铺的微信、微博、贴吧、QQ群、U站的推广工作。</p>
+                        <p>
+                            主要职责：1.负责淘宝或天猫店铺的店铺装修、图片美化和产品上下架;2.负责与店铺运营人员沟通好，做好店铺的商品结构调整或改版;3.◎负责该店铺的微信、微博、贴吧、QQ群、U站的推广工作。</p>
 
-					</div>
+                    </div>
 
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-			<div class="col-md-6 w-grid">
+            <div class="col-md-6 w-grid">
 
-				<div class="work-grid">
+                <div class="work-grid">
 
-					<h3>2015.3 - 2016.7</h3>
+                    <h3>2015.3 - 2016.7</h3>
 
-					<div class="work-grid-info">
+                    <div class="work-grid-info">
 
-						<h4>衡水迅驰计算机网络有限公司</h4>
+                        <h4>衡水迅驰计算机网络有限公司</h4>
 
-						<h5>职务：前端开发</h5>
+                        <h5>职务：前端开发</h5>
 
-						<p>主要职责：1.	负责设计图的代码实现，保证良好的浏览器兼容性（IE7+），包括手机端和APP开发；2.	负责与后台人员协作，完成操作交互、数据展现；3.	负责整个项目的上传和后期维护（包括改版）等;</p>
+                        <p>主要职责：1. 负责设计图的代码实现，保证良好的浏览器兼容性（IE7+），包括手机端和APP开发；2. 负责与后台人员协作，完成操作交互、数据展现；3.
+                            负责整个项目的上传和后期维护（包括改版）等;</p>
 
-					</div>
+                    </div>
 
-				</div>
+                </div>
 
-			</div>
+            </div>
+            <div class="clearfix"></div>
 
-			<div class="clearfix"></div>
 
-		</div>
+        </div>
+        <div class="work-grids">
+            <div class="col-md-12 w-grid">
 
-	</div>
+                <div class="work-grid">
+
+                    <h3>2016.9 - 至今</h3>
+
+                    <div class="work-grid-info">
+
+                        <h4>北京百胜星联科技有限公司</h4>
+
+                        <h5>职务：前端开发</h5>
+
+                        <p>主要职责：1. 负责公司产品的客户私人定制化开发；2.负责与后台人员协作，完成操作交互、数据展现；3.
+                            负责整个项目的上传和后期维护（包括改版）等;</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 
 </div>
 
@@ -497,203 +524,206 @@
 <div class="services-back"></div>
 
 
-
 <!--services-->
 
-<div class="services text-center" id="services">
+<div class="services text-center" id="advantage">
 
-	<div class="container">
+    <div class="container">
 
-		<div class="ser-info">
+        <div class="ser-info">
 
-			<h3>我的优势</h3>
+            <h3>我的优势</h3>
 
-		</div>
+        </div>
 
-		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
+        <div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
 
-		<div class="ser-grids">
+        <div class="ser-grids">
 
-			<div class="col-md-3 ser-grid">
+            <div class="col-md-3 ser-grid">
 
-				<div class="ser-imagea"></div>
+                <div class="ser-imagea"></div>
 
-				<h3>HTML5和CSS3</h3>
+                <h3>HTML5和CSS3</h3>
 
-				<p>HTML5和CSS3的技术在当下是非常流行的，我能为您迅速赶上时代潮流。</p>
+                <p>HTML5和CSS3的技术在当下是非常流行的，我能为您迅速赶上时代潮流。</p>
 
-			</div>
+            </div>
 
-			<div class="col-md-3 ser-grid">
+            <div class="col-md-3 ser-grid">
 
-				<div class="ser-imageb"></div>
+                <div class="ser-imageb"></div>
 
-				<h3>切图</h3>
+                <h3>切图</h3>
 
-				<p>效果图由专业的美工设计出来。我能熟练的剪切下相应的图片，并用编码实现效果图。</p>
+                <p>效果图由专业的美工设计出来。我能熟练的剪切下相应的图片，并用编码实现效果图。</p>
 
-			</div>
+            </div>
 
-			<div class="col-md-3 ser-grid">
+            <div class="col-md-3 ser-grid">
 
-				<div class="ser-imagec"></div>
+                <div class="ser-imagec"></div>
 
-				<h3>AJAX交互</h3>
+                <h3>AJAX交互</h3>
 
-				<p>现在的网站更多的是强调和用户的交互，所以就用到ajax和后台数据的交互，我可以胜任。</p>
+                <p>现在的网站更多的是强调和用户的交互，所以就用到ajax和后台数据的交互，我可以胜任。</p>
 
-			</div>
+            </div>
 
-			<div class="col-md-3 ser-grid">
+            <div class="col-md-3 ser-grid">
 
-				<div class="ser-imaged"></div>
+                <div class="ser-imaged"></div>
 
-				<h3>多元化的我</h3>
+                <h3>多元化的我</h3>
 
-				<p>广泛的爱好和善良的品质让我能很快的融入集体，坚韧的性格和不服输的精神让我敢于挑战。</p>
+                <p>广泛的爱好和善良的品质让我能很快的融入集体，坚韧的性格和不服输的精神让我敢于挑战。</p>
 
-			</div>
+            </div>
 
-			<div class="clearfix"></div>
+            <div class="clearfix"></div>
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
 </div>
 
 <!--//services-->
 
-<!--portfolio-->
+<!--works-->
 
-<div class="gallery-section text-center" id="portfolio">
+<div class="gallery-section text-center" id="works">
 
-	<div class="container">
+    <div class="container">
 
-		<h3>作品集</h3>
+        <h3>作品集</h3>
 
-		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+        <div class="strip text-center"><img src="images/port.png" alt=" "/></div>
 
-		<p>出来混“江湖”有句话很出名--光说不练假把式，光练不说傻把式。我可不是光说说我会什么，拿出点效果让你瞧瞧，这些我都会，你才相信我，更有说服力。</p>
+        <p>出来混“江湖”有句话很出名--光说不练假把式，光练不说傻把式。我可不是光说说我会什么，拿出点效果让你瞧瞧，这些我都会，你才相信我，更有说服力。</p>
 
-		<div class="gallery-grids">
+        <div class="gallery-grids">
 
-			<div class="top-gallery">
+            <div class="top-gallery">
 
-				<div class="col-md-4 gallery-grid gallery1">
+                <div class="col-md-4 gallery-grid gallery1">
 
-					<a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
+                    <a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
 
-						<div class="textbox">
+                        <div class="textbox">
 
-							<h4>照片墙</h4>
+                            <h4>照片墙</h4>
 
-							<p>拖拽,运动框架</p>
+                            <p>拖拽,运动框架</p>
 
-							<div class="button"><a href="photowall.html" target="_blank" class="swipebox">详情++</a></div>
+                            <div class="button"><a href="photowall.html" target="_blank" class="swipebox">详情++</a></div>
 
-						</div>
+                        </div>
+                    </a>
+                </div>
 
-				</div></a>
 
-				<div class="col-md-4 gallery-grid gallery1">
+                <div class="col-md-4 gallery-grid gallery1">
 
-					<a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
+                    <a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
 
-						<div class="textbox">
+                        <div class="textbox">
 
-							<h4>京东轮播图</h4>
+                            <h4>京东轮播图</h4>
 
-							<p>运动框架,sea.js</p>
+                            <p>运动框架,sea.js</p>
 
-							<div class="button"><a href="jdslider.html" target="_blank" class="swipebox">详情++</a></div>
+                            <div class="button"><a href="jdslider.html" target="_blank" class="swipebox">详情++</a></div>
 
-						</div>
+                        </div>
+                    </a>
+                </div>
 
-				</div></a>
 
-				<div class="col-md-4 gallery-grid gallery1">
+                <div class="col-md-4 gallery-grid gallery1">
 
-					<a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
+                    <a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
 
-						<div class="textbox">
+                        <div class="textbox">
 
-							<h4>手风琴</h4>
+                            <h4>手风琴</h4>
 
-							<p>运动框架</p>
+                            <p>运动框架</p>
 
-							<div class="button"><a href="accordion.html" target="_blank" class="swipebox">详情++</a></div>
+                            <div class="button"><a href="accordion.html" target="_blank" class="swipebox">详情++</a></div>
 
-						</div>
+                        </div>
+                    </a>
+                </div>
 
-				</div></a>
 
-				<div class="col-md-4 gallery-grid gallery1">
+                <div class="col-md-4 gallery-grid gallery1">
 
-					<a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
+                    <a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
 
-						<div class="textbox">
+                        <div class="textbox">
 
-							<h4>无缝滚动</h4>
+                            <h4>无缝滚动</h4>
 
-							<p>运动框架</p>
+                            <p>运动框架</p>
 
-							<div class="button"><a href="wfgd.html" target="_blank" class="swipebox">详情++</a></div>
+                            <div class="button"><a href="wfgd.html" target="_blank" class="swipebox">详情++</a></div>
 
-						</div>
+                        </div>
+                    </a>
+                </div>
 
-				</div></a>
 
-				<div class="col-md-4 gallery-grid gallery1">
+                <div class="col-md-4 gallery-grid gallery1">
 
-					<a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
+                    <a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
 
-						<div class="textbox">
+                        <div class="textbox">
 
-							<h4>百度搜索框</h4>
+                            <h4>百度搜索框</h4>
 
-							<p>jsonp</p>
+                            <p>jsonp</p>
 
-							<div class="button"><a href="baiduss.html" target="_blank" class="swipebox">详情++</a></div>
+                            <div class="button"><a href="baiduss.html" target="_blank" class="swipebox">详情++</a></div>
 
-						</div>
+                        </div>
+                    </a>
+                </div>
 
-				</div></a>
 
-				<div class="col-md-4 gallery-grid gallery1">
+                <div class="col-md-4 gallery-grid gallery1">
 
-					<a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
+                    <a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
 
-						<div class="textbox">
+                        <div class="textbox">
 
-							<h4>炫酷背景墙</h4>
+                            <h4>炫酷背景墙</h4>
 
-							<p></p>
+                            <p></p>
 
-							<div class="button"><a href="iloveyou.html" target="_blank" class="swipebox">详情++</a></div>
+                            <div class="button"><a href="iloveyou.html" target="_blank" class="swipebox">详情++</a></div>
 
-						</div>
+                        </div>
+                    </a>
+                </div>
 
-				</div></a>
 
-				<div class="clearfix"> </div>
+                <div class="clearfix"></div>
 
-			</div>
+            </div>
 
-				<link rel="stylesheet" href="css/swipebox.css">
+            <link rel="stylesheet" href="css/swipebox.css">
 
-				
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
 </div>
 
 <!--//portfolio-->
 
 <!--process-->
-
 
 
 <!--//process-->
@@ -704,7 +734,6 @@
 <!--clients-->
 
 
-
 <!--clients-->
 
 <div class="client-back"></div>
@@ -713,183 +742,181 @@
 
 <div class="blog" id="blog">
 
-	<div class="container">
+    <div class="container">
 
-		<div class="blog-info text-center">
+        <div class="blog-info text-center">
 
-			<h3>上线作品</h3>
+            <h3>上线作品</h3>
 
-			<div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
+            <div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
 
-		</div>
+        </div>
 
-		<div class="blog-grids">
+        <div class="blog-grids">
 
-			<div class="col-md-4 blog-text-info">
+            <div class="col-md-4 blog-text-info">
 
-				<div class="blog-grid">
+                <div class="blog-grid">
 
-					<a href="http://www.aphaozhan.com"><img src="images/aphaozhan_sl.png" alt=""/></a>
+                    <a href="http://www.aphaozhan.com"><img src="images/aphaozhan_sl.png" alt=""/></a>
 
-					<div class="blog-text">
+                    <div class="blog-text">
 
-						<a href="http://www.aphaozhan.com" target="_blank">河北浩展丝网厂</a>
+                        <a href="http://www.aphaozhan.com" target="_blank">河北浩展丝网厂</a>
 
-						<div class="stripa"></div>
+                        <div class="stripa"></div>
 
-						<p>河北浩展丝网厂是一家专业制造新钢护栏的厂家。本人设计制作的该厂的官方网站，主要应用了选项卡，表单的提交，后台的交互。</p>
+                        <p>河北浩展丝网厂是一家专业制造新钢护栏的厂家。本人设计制作的该厂的官方网站，主要应用了选项卡，表单的提交，后台的交互。</p>
 
-					</div>
+                    </div>
 
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-			<div class="col-md-4 blog-text-info">
+            <div class="col-md-4 blog-text-info">
 
-				<div class="blog-grid">
+                <div class="blog-grid">
 
-					<a href="http://chongkongxiyinban.com" target="_blank"><img src="images/chongkongxiyinban_sl.png" alt=""/></a>
+                    <a href="http://chongkongxiyinban.com" target="_blank"><img src="images/chongkongxiyinban_sl.png"
+                                                                                alt=""/></a>
 
-					<div class="blog-text">
+                    <div class="blog-text">
 
-						<a href="http://chongkongxiyinban.com">河北润吉金属制品有限公司</a>
+                        <a href="http://chongkongxiyinban.com">河北润吉金属制品有限公司</a>
 
-						<div class="stripa"></div>
+                        <div class="stripa"></div>
 
-						<p>河北润吉金属制品有限公司一家专业制造新钢护栏的厂家。本人制作的该厂的官方网站，主要应用了选项卡，表单的提交，后台的交互。</p>
+                        <p>河北润吉金属制品有限公司一家专业制造新钢护栏的厂家。本人制作的该厂的官方网站，主要应用了选项卡，表单的提交，后台的交互。</p>
 
-					</div>
+                    </div>
 
-				
 
-					
-					
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-			<div class="col-md-4 blog-text-info">
+            <div class="col-md-4 blog-text-info">
 
-				<div class="blog-grid">
+                <div class="blog-grid">
 
-					<a href="chttp://www.apyousu.com" target="_blank"><img src="images/apyousu_sl.png" alt=""/></a>
+                    <a href="chttp://www.apyousu.com" target="_blank"><img src="images/apyousu_sl.png" alt=""/></a>
 
-					<div class="blog-text">
+                    <div class="blog-text">
 
-						<a href="http://www.apyousu.com" target="_blank">河北优塑装饰材料有限公司</a>
+                        <a href="http://www.apyousu.com" target="_blank">河北优塑装饰材料有限公司</a>
 
-						<div class="stripa"></div>
+                        <div class="stripa"></div>
 
-						<p>河北优塑装饰材料有限公司一家专业制造新钢护栏的厂家。本人制作的该厂的官方网站，主要应用了选项卡，表单的提交，后台的交互。</p>
+                        <p>河北优塑装饰材料有限公司一家专业制造新钢护栏的厂家。本人制作的该厂的官方网站，主要应用了选项卡，表单的提交，后台的交互。</p>
 
-					</div>
+                    </div>
 
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-			<!-- <div class="col-md-4 blog-text-info">
-			
-				<div class="blog-grid">
-			
-					<a href="single.html" target="_blank"><img src="images/a.jpg" alt=""/></a>
-			
-					<div class="blog-text">
-			
-						<a href="single.html">安平县森喆丝网有限公司</a>
-			
-						<div class="stripa"></div>
-			
-						<p>安平县森喆丝网有限公司一家专业制造新钢护栏的厂家。本人制作的该厂的官方网站，主要应用了选项卡，表单的提交，后台的交互。</p>
-			
-					</div>
-			
-				
-			
-					
-			
-					<div class="blog-pos">
-			
-						<p>5<span>May</span></p>
-			
-					</div>
-			
-				</div>
-			
-			</div>
-			
-			<div class="col-md-4 blog-text-info">
-			
-				<div class="blog-grid">
-			
-					<a href="single.html"><img src="images/b.jpg" alt=""/></a>
-			
-					<div class="blog-text">
-			
-						<a href="single.html">衡水迅驰计算机网络有限公司官网</a>
-			
-						<div class="stripa"></div>
-			
-						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
-			
-						and viruses differently than mine. You don't get sick, I do.</p>
-			
-					</div>
-			
-				
-			
-					
-			
-					
-			
-				</div>
-			
-			</div>
-			
-			<div class="col-md-4 blog-text-info">
-			
-				<div class="blog-grid">
-			
-					<a href="single.html"><img src="images/c.jpg" alt=""/></a>
-			
-					<div class="blog-text">
-			
-						<a href="single.html">xxxxxxxxxxx</a>
-			
-						<div class="stripa"></div>
-			
-						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
-			
-						and viruses differently than mine. You don't get sick, I do.</p>
-			
-					</div>
-			
-				
-			
-					<div class="blog-para">
-					
-							<ul>
-					
-								<li><a href="#">3 Comments</a></li>
-					
-								<li><a href="#">8 Share</a></li>
-					
-							</ul>
-					
-					</div>
-			
-					
-			
-				</div>
-			
-			</div> -->
+            <!-- <div class="col-md-4 blog-text-info">
 
-			<div class="clearfix"></div>
+                <div class="blog-grid">
 
-		</div>
+                    <a href="single.html" target="_blank"><img src="images/a.jpg" alt=""/></a>
 
-	</div>
+                    <div class="blog-text">
+
+                        <a href="single.html">安平县森喆丝网有限公司</a>
+
+                        <div class="stripa"></div>
+
+                        <p>安平县森喆丝网有限公司一家专业制造新钢护栏的厂家。本人制作的该厂的官方网站，主要应用了选项卡，表单的提交，后台的交互。</p>
+
+                    </div>
+
+
+
+
+
+                    <div class="blog-pos">
+
+                        <p>5<span>May</span></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 blog-text-info">
+
+                <div class="blog-grid">
+
+                    <a href="single.html"><img src="images/b.jpg" alt=""/></a>
+
+                    <div class="blog-text">
+
+                        <a href="single.html">衡水迅驰计算机网络有限公司官网</a>
+
+                        <div class="stripa"></div>
+
+                        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria
+
+                        and viruses differently than mine. You don't get sick, I do.</p>
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 blog-text-info">
+
+                <div class="blog-grid">
+
+                    <a href="single.html"><img src="images/c.jpg" alt=""/></a>
+
+                    <div class="blog-text">
+
+                        <a href="single.html">xxxxxxxxxxx</a>
+
+                        <div class="stripa"></div>
+
+                        <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria
+
+                        and viruses differently than mine. You don't get sick, I do.</p>
+
+                    </div>
+
+
+
+                    <div class="blog-para">
+
+                            <ul>
+
+                                <li><a href="#">3 Comments</a></li>
+
+                                <li><a href="#">8 Share</a></li>
+
+                            </ul>
+
+                    </div>
+
+
+
+                </div>
+
+            </div> -->
+
+            <div class="clearfix"></div>
+
+        </div>
+
+    </div>
 
 </div>
 
@@ -901,49 +928,46 @@
 
 <div class="contact" id="contact">
 
-	<div class="container">
+    <div class="container">
 
-		<div class="contact-info text-center">
+        <div class="contact-info text-center">
 
-			<h3>联系我吧</h3>
+            <h3>联系方式</h3>
 
-			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+            <div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
 
-		</div>
+        </div>
 
-		<div class="contact-grids col-xs-12">
+        <div class="contact-grids col-xs-12">
 
-			<div class="col-md-12 contact-left">
+            <div class="col-md-12 contact-left">
 
-				
 
-				<ul>
+                <ul>
 
-					<li>姓名：田雨</li>
+                    <li>姓名：田雨</li>
 
-					<li>年龄：23岁</li>
+                    <li>年龄：23岁</li>
 
-					<li>手机：135-2119-6963</li>
-					<li>备用联系手机：18301500957(杨女士)</li>
+                    <li>手机：135-2119-6963</li>
+                    <li>备用联系手机：18301500957(杨女士)</li>
 
-					<li>QQ：1358318426</li>
-					<li>微信：ty1358318426</li>
+                    <li>QQ：1358318426</li>
+                    <li>微信：ty1358318426</li>
 
-					<li><a href="mailto:tianyu_2016@sina.com">tianyu_2016@sina.com</a></li>
+                    <li><a href="mailto:tianyu_2016@sina.com">tianyu_2016@sina.com</a></li>
 
-					
 
-				</ul>
+                </ul>
 
-			</div>
+            </div>
 
-			
 
-			<div class="clearfix"></div>
+            <div class="clearfix"></div>
 
-		</div>
+        </div>
 
-	</div>
+    </div>
 
 </div>
 
@@ -954,20 +978,18 @@
 <!--resume-->
 
 
-
 <!--//resume-->
-
 
 
 <!--footer-->
 
 <div class="footer">
 
-	<div class="container">
+    <div class="container">
 
-		<p>Copyright &copy; 2016 Mr.t</p>
+        <p>Copyright &copy; 2016 Mr.t</p>
 
-	</div>
+    </div>
 
 </div>
 
@@ -975,35 +997,33 @@
 
 <!-- here stars scrolling icon -->
 
-	<script type="text/javascript">
+<script type="text/javascript">
 
-		$(document).ready(function() {
+    $(document).ready(function () {
 
-			/*
+        /*
 
-				var defaults = {
+            var defaults = {
 
-				containerID: 'toTop', // fading element id
+            containerID: 'toTop', // fading element id
 
-				containerHoverID: 'toTopHover', // fading element hover id
+            containerHoverID: 'toTopHover', // fading element hover id
 
-				scrollSpeed: 1200,
+            scrollSpeed: 1200,
 
-				easingType: 'linear' 
+            easingType: 'linear'
 
-				};
+            };
 
-			*/
+        */
 
-								
 
-			$().UItoTop({ easingType: 'easeOutQuart' });
+        $().UItoTop({easingType: 'easeOutQuart'});
 
-								
 
-			});
+    });
 
-	</script>
+</script>
 
 <!-- //here ends scrolling icon -->
 
