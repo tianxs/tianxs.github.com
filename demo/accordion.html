@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>手风琴效果</title>
+        <meta charset="utf-8">
+        <style>
+            *{padding:0;margin:0;list-style: none;}
+            #box{width:622px;height:350px;border:1px solid #000;margin:10px auto;}
+            #oul{width:622px;height:350px;border:1px solid #000;overflow:hidden;position:relative;}
+            #oul li{width:500px;height:350px;border:1px solid #ccc;position:absolute;}
+            #oul li img{width:500px;height:350px;}
+        </style>
+        <script src="../js/move.js" type="text/javascript" charset="utf-8" ></script>
+        <script>
+            window.onload=function(){
+                var oUl=document.getElementById('oul');
+                var aLi=oUl.children;
+                var aImg=oUl.getElementsByTagName('img');
+                var oW=622;
+                var w1=30;
+                for(var i=1;i<aLi.length;i++){
+                        aLi[i].style.left=oW-(aLi.length-i)*w1+'px';
+                    
+                }
+                for(var i=0;i<aLi.length;i++){
+                    
+                        ;(function(index){
+                            aLi[i].onmouseover=function(){
+                               for(var i=0;i<aLi.length;i++){
+                                    if(index>=i){
+                                        aLi[i].style.left=w1*i+'px';
+                                    }else{
+                                        aLi[i].style.left=oW-(aLi.length-i)*w1+'px';
+                                    }
+                               }
+                            } 
+                        })(i);
+                }   
+                
+                
+            };
+        </script>
+
+    </head>
+    <body>
+    <div id="box">
+        <ul id="oul">
+            <li ><img src="../images/accordion2.jpg" alt=""></li>
+            <li ><img src="../images/accordion3.jpg" alt=""></li>
+            <li ><img src="../images/accordion4.jpg" alt=""></li>
+            <li ><img src="../images/accordion5.jpg" alt=""></li>
+            <li ><img src="../images/accordion1.jpg" alt=""></li>
+        </ul>
+    </div>
+    </body>
+</html>
