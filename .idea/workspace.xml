@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9781781-80c9-404b-96cb-9880366ba121" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/basics.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/basics.css" afterDir="false" />
-    </list>
+    <list default="true" id="e9781781-80c9-404b-96cb-9880366ba121" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,7 +20,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="64">
               <caret line="230" column="22" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
             </state>
           </provider>
@@ -157,7 +154,7 @@
       <workItem from="1540524377108" duration="8840000" />
       <workItem from="1540792414777" duration="3673000" />
       <workItem from="1540797044425" duration="7918000" />
-      <workItem from="1540862124212" duration="1540000" />
+      <workItem from="1540862124212" duration="2387000" />
     </task>
     <task id="LOCAL-00001" summary="菜单优化">
       <created>1540546955822</created>
@@ -170,7 +167,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21725000" />
+    <option name="totallyTimeSpent" value="22572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -179,10 +176,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.66164386" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.57260275" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" weight="0.12044271" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.45479453" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45479453" />
       <window_info id="Favorites" order="2" sideWeight="0.5024793" side_tool="true" weight="0.12044271" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -207,7 +204,15 @@
                 <collection />
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="maste" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -511,7 +516,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="64">
           <caret line="230" column="22" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
         </state>
       </provider>
