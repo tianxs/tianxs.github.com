@@ -20,8 +20,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="49">
               <caret line="845" column="37" selection-start-line="845" selection-start-column="37" selection-end-line="845" selection-end-column="37" />
+=======
+            <state relative-caret-position="399">
+              <caret line="848" column="40" selection-start-line="848" selection-start-column="40" selection-end-line="848" selection-end-column="40" />
+>>>>>>> develop
             </state>
           </provider>
         </entry>
@@ -40,6 +45,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>css</find>
@@ -50,6 +62,10 @@
       <find>教育</find>
       <find>blog</find>
       <find>我是</find>
+<<<<<<< HEAD
+=======
+      <find>options</find>
+>>>>>>> develop
     </findStrings>
     <replaceStrings>
       <replace>works</replace>
@@ -70,6 +86,10 @@
         <option value="$PROJECT_DIR$/wfgd.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/basics.css" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/demo/c-star.html" />
+>>>>>>> develop
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -114,7 +134,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/gitee/tianxs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -148,7 +170,14 @@
       <workItem from="1540524377108" duration="8840000" />
       <workItem from="1540792414777" duration="3673000" />
       <workItem from="1540797044425" duration="7918000" />
+<<<<<<< HEAD
       <workItem from="1540862124212" duration="514000" />
+=======
+      <workItem from="1540862124212" duration="4446000" />
+      <workItem from="1541751990750" duration="3054000" />
+      <workItem from="1541985294018" duration="622000" />
+      <workItem from="1542004077349" duration="627000" />
+>>>>>>> develop
     </task>
     <task id="LOCAL-00001" summary="菜单优化">
       <created>1540546955822</created>
@@ -161,19 +190,33 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="20699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.17708333" />
+=======
+    <option name="totallyTimeSpent" value="28934000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.17708333" />
+>>>>>>> develop
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.37534246" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" weight="0.12044271" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.45479453" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45479453" />
+>>>>>>> develop
       <window_info id="Favorites" order="2" sideWeight="0.5024793" side_tool="true" weight="0.12044271" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -208,7 +251,15 @@
                 <collection />
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
+                <collection>
+                  <UserGroup>
+                    <option name="users">
+                      <list>
+                        <option value="maste" />
+                      </list>
+                    </option>
+                  </UserGroup>
+                </collection>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -232,6 +283,48 @@
     <option name="LAST_COMMIT_MESSAGE" value="菜单优化" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/basics.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20900">
+          <caret line="950" lean-forward="true" selection-start-line="950" selection-end-line="950" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/wfgd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49984">
+          <caret line="2272" column="1" lean-forward="true" selection-start-line="2272" selection-start-column="1" selection-end-line="2272" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/swipebox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4928">
+          <caret line="224" column="1" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/basics.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16456">
@@ -492,6 +585,7 @@
     <entry file="file://$PROJECT_DIR$/images/6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/cases/chongkongxiyinban.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -500,20 +594,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/cases/aphaozhan.html" />
+    <entry file="file://$PROJECT_DIR$/css/basics.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+>>>>>>> develop
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="50116">
+=======
+        <state relative-caret-position="22">
+>>>>>>> develop
           <caret line="2278" column="21" selection-start-line="2278" selection-start-column="21" selection-end-line="2278" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="845" column="37" selection-start-line="845" selection-start-column="37" selection-end-line="845" selection-end-column="37" />
+=======
+    <entry file="file://$PROJECT_DIR$/cases/chongkongxiyinban.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/c-star.html" />
+    <entry file="file://$PROJECT_DIR$/js/circles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="203" column="35" selection-start-line="203" selection-start-column="28" selection-end-line="203" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+>>>>>>> develop
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="845" column="37" selection-start-line="845" selection-start-column="37" selection-end-line="845" selection-end-column="37" />
+        <state relative-caret-position="399">
+          <caret line="848" column="40" selection-start-line="848" selection-start-column="40" selection-end-line="848" selection-end-column="40" />
         </state>
       </provider>
     </entry>
