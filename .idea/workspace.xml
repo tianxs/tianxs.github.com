@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9781781-80c9-404b-96cb-9880366ba121" name="Default" comment="" />
+    <list default="true" id="e9781781-80c9-404b-96cb-9880366ba121" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,36 +23,32 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="230" column="22" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
+            <state relative-caret-position="399">
+              <caret line="848" column="40" selection-start-line="848" selection-start-column="40" selection-end-line="848" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chongkongxiyinban.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cases/chongkongxiyinban.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+      <file leaf-file-name="circles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/circles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2278" column="21" selection-start-line="2278" selection-start-column="21" selection-end-line="2278" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basics.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/basics.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="633">
+              <caret line="203" column="35" selection-start-line="203" selection-start-column="28" selection-end-line="203" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -61,6 +60,7 @@
       <find>教育</find>
       <find>blog</find>
       <find>我是</find>
+      <find>options</find>
     </findStrings>
     <replaceStrings>
       <replace>works</replace>
@@ -81,6 +81,7 @@
         <option value="$PROJECT_DIR$/wfgd.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/basics.css" />
+        <option value="$PROJECT_DIR$/demo/c-star.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -113,6 +114,11 @@
               <item name="tianxs.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="tianxs.github.com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tianxs.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tianxs.github.com" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,7 +126,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/gitee/tianxs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -154,7 +162,10 @@
       <workItem from="1540524377108" duration="8840000" />
       <workItem from="1540792414777" duration="3673000" />
       <workItem from="1540797044425" duration="7918000" />
-      <workItem from="1540862124212" duration="2387000" />
+      <workItem from="1540862124212" duration="4446000" />
+      <workItem from="1541751990750" duration="3054000" />
+      <workItem from="1541985294018" duration="622000" />
+      <workItem from="1542004077349" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="菜单优化">
       <created>1540546955822</created>
@@ -167,16 +178,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22572000" />
+    <option name="totallyTimeSpent" value="28934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.08919271" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49668875" visible="true" weight="0.17708333" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.57260275" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.37534246" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50165564" side_tool="true" weight="0.12044271" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.45479453" />
@@ -236,23 +248,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="菜单优化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16456">
-          <caret line="748" column="53" selection-start-line="748" selection-start-column="53" selection-end-line="748" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases/chongkongxiyinban.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50116">
-          <caret line="2278" column="21" lean-forward="true" selection-start-line="2278" selection-start-column="21" selection-end-line="2278" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/basics.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -497,8 +492,12 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cases/aphaozhan.html" />
-    <entry file="file://$PROJECT_DIR$/cases/chongkongxiyinban.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/css/basics.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -507,17 +506,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/basics.css">
+    <entry file="file://$PROJECT_DIR$/cases/chongkongxiyinban.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/c-star.html" />
+    <entry file="file://$PROJECT_DIR$/js/circles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="633">
+          <caret line="203" column="35" selection-start-line="203" selection-start-column="28" selection-end-line="203" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="230" column="22" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
+        <state relative-caret-position="399">
+          <caret line="848" column="40" selection-start-line="848" selection-start-column="40" selection-end-line="848" selection-end-column="40" />
         </state>
       </provider>
     </entry>
